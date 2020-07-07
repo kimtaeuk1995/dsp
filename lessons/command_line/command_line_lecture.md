@@ -69,6 +69,7 @@ This "changes directory" and makes the named directory our new working
 directory. 
 
 > Question: How could we make sure that we moved?
+
 > Answer: Type ls to see what directory you are in
 
 Let's get a few special things out of the way as well for command line. When
@@ -147,6 +148,7 @@ Nice.
 
 > Let's save the output of the `curl` command to a file called `data.txt`. How
 would we do that?
+
 > Answer: curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt
 
 
@@ -196,6 +198,7 @@ ls -lh
 ```
 
 > What changed?
+
 > Answer: File size now in kilo bytes
 
 If instead copying we just want to change the name of a file, we can do:
