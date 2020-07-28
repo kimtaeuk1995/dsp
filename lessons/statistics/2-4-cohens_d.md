@@ -2,7 +2,7 @@
 
 > Answer 
 
-'''
+```
 #first babies
 group1_lb = first_babies.totalwgt_lb
 
@@ -10,6 +10,6 @@ group1_lb = first_babies.totalwgt_lb
 group2_lb = other_babies.totalwgt_lb
 
 CohenEffectSize(group1_lb, group2_lb)
-'''
+```
 
 *The effect is bigger than the difference in pregnancy length but still very small*
