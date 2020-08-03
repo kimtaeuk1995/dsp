@@ -12,7 +12,7 @@ def generate_random_number(num):
 random_list = generate_random_number(1000)
 
 pmf = thinkstats2.Pmf(random_list, label = 'PMF')
-thinkplot.pmf
+thinkplot.Pmf(pmf)
 
 cdf = thinkstats2.Cdf(random_list, label = 'CDF')
 thinkplot.Cdf(cdf)
